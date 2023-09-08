@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build107.loader.js";
+      var loaderUrl = buildUrl + "/BuildWGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build107.data.gz",
-        frameworkUrl: buildUrl + "/Build107.framework.js.gz",
-        codeUrl: buildUrl + "/Build107.wasm.gz",
+        dataUrl: buildUrl + "/BuildWGL.data",
+        frameworkUrl: buildUrl + "/BuildWGL.framework.js",
+        codeUrl: buildUrl + "/BuildWGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "VMASC",
         productName: "Coastal_Coders",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Build107.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/BuildWGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
